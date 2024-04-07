@@ -187,6 +187,12 @@ body {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 992px) {
+  .download-button {
+    display: none;
+  }
+}
+
 @media print {
   @page {
     size: 992px 1403px;
@@ -206,7 +212,8 @@ body {
     top: 0px;
   }
 
-  .cv-for-web, .download-button {
+  .cv-for-web,
+  .download-button {
     display: none !important;
   }
 }
